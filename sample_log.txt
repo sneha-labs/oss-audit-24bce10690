@@ -1,0 +1,8 @@
+Mar 31 12:00:01 host systemd[1]: Started Session 1 of user sneha.
+Mar 31 12:00:02 host kernel: [  123.456789] usb 1-1: new high-speed USB device number 2 using xhci_hcd
+Mar 31 12:00:03 host sudo: sneha : TTY=pts/0 ; PWD=/home/sneha ; USER=root ; COMMAND=/usr/bin/apt update
+Mar 31 12:00:04 host kernel: [  124.567890] ERROR: usb device not recognized
+Mar 31 12:00:05 host systemd[1]: error in service startup
+Mar 31 12:00:06 host kernel: [  125.678901] usb 1-1: device descriptor read/64, error -110
+Mar 31 12:00:07 host sudo: sneha : TTY=pts/0 ; PWD=/home/sneha ; USER=root ; COMMAND=/usr/bin/apt upgrade
+Mar 31 12:00:08 host kernel: [  126.789012] ERROR: failed to initialize USB device
